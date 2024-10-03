@@ -274,7 +274,15 @@ header ul li:hover .dropdown {
                 color: #555;
             }
         }
+        .carousel-item img {
+            transition: transform 0.5s ease-in-out;
+        }
+        
+        .carousel-item img:hover {
+            transform: scale(1.1);
+        }
     }
+
 
     button {
         position: absolute;
