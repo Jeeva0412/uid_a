@@ -146,18 +146,21 @@ header ul li:hover .dropdown {
     text-decoration: none;
 }
 
-.container .img-box {
+.container .img-box{
     width: 600px;
     display: flex;
     justify-content: flex-end;
     padding-right: 50px;
     margin-top: 50px;
+    transition: transform 0.5s ease-in-out;
 }
-
-.container .img-box img {
+.container .img-box img{
     max-width: 340px;
 }
 
+.container .img-box:hover{
+    transform: scale(1.1);
+}
 .thumb {
     position: absolute;
     left: 50%;
